@@ -1,16 +1,20 @@
 {
-    "name": "tck/odbc",
+    "name": "kkszymanowski/odbc",
     "description": "ODBC Connector for Laravel",
     "license": "MIT",
     "authors": [
         {
             "name": "tck",
             "email": "ben@thecreativekind.co.uk"
+        },
+        {
+            "name": "Kuba Szymanowski",
+            "email": "kubaszymanowski@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "~5.0|6.*"
     },
     "autoload": {
         "psr-0": {
