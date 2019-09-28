@@ -21,5 +21,12 @@
             "TCK\\Odbc": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TCK\\Odbc\\OdbcServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "stable"
 }
